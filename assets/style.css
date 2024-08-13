@@ -1,0 +1,69 @@
+/*  --------------- Box Sizing -----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*  --------------- Global Styles -----------------  */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  border-bottom: 5px solid #101010;
+  flex-direction: column;
+}
+
+.titleCard {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  background-color: #101010;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mainNav a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 5px solid #fff;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}
+
+.mainNav a:hover {
+  background-color: #bf0d3e;
+}
